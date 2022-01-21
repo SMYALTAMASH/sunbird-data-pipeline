@@ -13,7 +13,7 @@ jobmanager_ui_tcp_port: 8081
 jobmanager_ui_service:
   type: LoadBalancer
   annotations:
-    service.beta.kubernetes.io/azure-load-balancer-internal: "true"
+    service.beta.kubernetes.io/aws-load-balancer-internal: "true"
 
 ### taskmanager related vars
 healthcheck: true
